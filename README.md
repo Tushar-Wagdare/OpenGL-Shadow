@@ -8,10 +8,13 @@ This repository demonstrates the implementation of Shadow Mapping techniques in 
 
 ##### Simple Shadow Mapping
 ![Basic Shadow Mapping](01_ShadowMapping/S1.png)
+
 ![Basic Shadow Mapping](01_ShadowMapping/S1.png)
+
 
 ##### Cascaded Shadow Mapping
 ![Basic Shadow Mapping](02_CascadedShadowMapping/S1.png)
+
 ![Basic Shadow Mapping](02_CascadedShadowMapping/S1.png)
 
 ## Folder Structure
@@ -33,7 +36,6 @@ This repository demonstrates the implementation of Shadow Mapping techniques in 
 Before building and running this project, you need to install the following dependencies:
 
 *   **GLEW (OpenGL Extension Wrangler Library):** Download GLEW and add the `include` directory and library files (e.g., `glew32.lib`) to your system environment variables.
-*   **Assimp (Open Asset Importer Library):** Download Assimp and add the `include` directory and library files to your system environment variables.
 *   **GLM (OpenGL Mathematics):** Download GLM. GLM is a header-only library, so simply copy the `glm` directory into your project's include path.
 
 **Note:** Adding GLEW, Assimp and GLM to your system environment variables ensures that Visual Studio can find them during the build process. This typically involves adding paths to the `INCLUDE` and `LIB` environment variables.
